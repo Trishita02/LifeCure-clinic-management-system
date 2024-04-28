@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Menu.css">
+    <link rel="stylesheet" href="Contact.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <header>
+        <navbar id="nav">
+            <div id="logo">
+                <img src="logo.PNG">
+            </div>
+            <div id="name">
+                LIFEcure Homeopathic 
+            </div>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="UserRegister.html">Login</a></li>
+                    <li><a href="Casestudy.html">Case Studies</a></li>
+                    <li><a href="Contact.html">Contact us</a></li>
+                    <li><a href="About.html">About us</a></li>
+                </ul> 
+        </navbar>
+    </header>
+    <div id="backimg">
+    </div>
+    <div class="details">
+        Contact us AnyTime , We are always here to cure you&nbsp;:)
+    </div>
+    <div class="getintouch">
+        <h1>GET IN TOUCH</h1>
+        <span>
+            <a href="tel:+911234567890" target="blank">
+            <img src="call_logo.png" id="call-logo">
+            <p id="call">+911234567890</p></a>
+        </span>
+        <span>
+            <a href="https://wa.me/919876543210" target="blank">
+                <img src="whatsapp.png" id="wplogo">
+                <p id="wp">+919876543210</p>
+             </a>
+        </span>
+        <span>
+            <a href="mailto:abc@gmail.com" target="blank">
+                <img src="mail.png" id="maillogo">
+                <p id="mail">abc@gmail.com</p>
+             </a>
+        </span>
+    </div>
+    <div class="address">
+        <h1>HOW TO REACH US</h1>
+        <span>
+            <a type="button" onclick="LCK()">
+                <img src="location.png" id="locationlogo1">
+                <p id="LC_K">LIFEcure Clinic (Kanpur) </p>
+                <p id="lck"></p>
+             </a>
+        </span>
+        <span>
+            <a type="button" onclick="WCK()">
+                <img src="location.png" id="locationlogo2">
+                <p id="WC_K">Wellness Clinic</p>
+                <p id="wck"></p>
+             </a>
+        </span>
+        <span>
+            <a type="button" onclick="LCF()">
+                <img src="location.png" id="locationlogo3">
+                <p id="LC_F">LIFEcure Clinic (Fatehpur)</p>
+                <p id="lcf"></p>
+             </a>
+        </span>
+    </div>
+    </body>
+    <script>
+        function LCK(){
+            document.getElementById('lck').innerHTML=
+            "Available at 121/621, Kamla Bhawan,Shashtri Nagar (Near Dr.R.G. Gupta) on Monday to Friday";
+        }
+        function WCK(){
+            document.getElementById('wck').innerHTML=
+            "Available at Opposite to Hallet Hospital, Gate No.2, Below Gold's Gym, Swaroop Nagar, Kanpur on Monday to Friday";
+        }
+        function LCF(){
+            document.getElementById('lcf').innerHTML=
+            "Available at AARA Machine,Hathgram Road, Fatehpur on Saturday,Sunday";
+        }
+    </script>
+</html>

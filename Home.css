@@ -1,0 +1,248 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color: rgb(135,222,241);    
+    }
+.frame{
+    overflow: hidden;
+    height:550px;
+    width:1200px;
+    margin-top: 20px;
+    margin-left: 215px;
+    background-color: white;
+}
+@keyframes slide_animation{
+    10%{
+        left:0;
+    }
+    25%{
+        left:-1200px;
+    }
+    50%{
+        left:-2400px;
+    } 
+    75%{
+        left:-1200px;
+    }
+    100%{
+        left:0px;
+       }
+    }
+.images{
+    width:3600px;
+    height:800px;
+    margin-right: 100px;
+    position: relative;
+    animation-name: slide_animation;
+    animation-duration: 50s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate ;
+    animation-play-state: running;
+    background-color: white;
+}
+.container{
+    height:800px;
+    width:1200px;
+    position: relative;
+    float: left;
+}
+.container img{
+    height:80vh;
+    width:75vw;
+}
+#description {
+    background-image :url("Desc_img.jpg");
+    background-size:100% 100vh;
+    background-repeat: no-repeat;
+    height: 400px;
+    width:98.7%;
+    border: 9px solid rgb(113,213,201);
+    border-radius: 5px;
+    margin-top: 30px;
+    position: relative;
+    float: left;
+}
+#description span{
+    color:rgb(24,82,77);
+    font-weight: bold;
+    font-size: 50px;
+    animation-name: welcome;
+    animation-delay: 3s;
+    animation-duration:7s;
+    animation-iteration-count:1;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes welcome{
+    from{
+        margin-left:67%;
+        width:70%;
+        opacity: 0;
+        visibility: visible;
+    }
+    to{
+        margin-left:0% ;
+        width: 0%;
+        opacity: 1;
+        visibility: visible;
+    } 
+}
+#description h2{
+    margin-top: 30px;
+    color: rgb(7, 7, 76);
+    animation-name:H2;
+    animation-delay:7s;
+    animation-duration:5s;
+    animation-iteration-count:1;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes H2{
+    from{
+        margin-left:67%;
+        width:70%;
+        opacity: 0;
+        visibility: visible;
+
+    }
+    to{
+        margin-left:2% ;
+        width: 70%;
+        opacity:1;
+        visibility: visible;
+
+    } 
+}
+#description h3{
+    margin-top: 15px;
+    margin-left: 27px;
+    color: rgb(7, 7, 76);
+    animation-name:H3;
+    animation-delay:12s;
+    animation-duration:5s;
+    animation-iteration-count:1;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes H3{
+    from{
+        margin-left:67%;
+        width:70%;
+        opacity: 0;
+        visibility: visible;
+    }
+    to{
+        margin-left:4% ;
+        width: 70%;
+        opacity: 1;
+        visibility: visible;
+    } 
+}
+#description p{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 47px;
+    font-style: italic;
+    animation-name:Description;
+    animation-delay:17s;
+    animation-duration:5s;
+    animation-iteration-count:1;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes Description{
+    from{
+        margin-left:67%;
+        width:90%;
+        opacity: 0;
+        visibility: visible;
+    }
+    to{
+        margin-left:6% ;
+        width: 94%;
+        opacity: 1;
+        visibility: visible;
+    } 
+}
+.query::before{ 
+    content:" ";
+    background-image:url("query.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    width:450px;
+    height:480px;         
+    z-index: -1;
+    opacity: 0.8;
+}
+.query{
+    display: flex;
+    margin-top: 450px;
+    border:1px solid black;
+    width:450px;
+    height:480px;
+}
+.query textarea{
+    margin-top: 15px;   
+    margin-left:70px;
+    height: 300px;
+    width:300px;
+    resize: none;
+}
+.query h2{
+    text-align: center;
+    color:black;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 10px;
+    
+}
+#input_mail{
+    width:300px;
+    height: 22px;
+   margin-left: 70px;
+   margin-bottom: 30px;
+}
+#submit{
+    margin-left: 160px;
+    padding: 6px 10px;
+}
+#reset{
+    padding: 6px 13px;
+}
+.button:hover{
+    background-color: rgb(144, 137, 137);
+    box-shadow: 0px 3px 3px 0px lightgray;
+}
+ #about{
+    margin-top: -481.5px;
+    margin-left: 455px;
+    border: 1px solid black;
+    height:480px ;
+    width: 71%;
+    display:grid;
+}
+#about h1{
+    margin-left: 20px;
+    margin-top: 40px;
+    font-style: italic;
+    text-decoration: underline;
+}
+#doctorimg{
+    position: relative;
+    left:63%;
+    bottom:110%;
+    width: 390px;
+    height: 310px;
+}
+#about div{
+    width:50%;
+    font-size:22px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+#about p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 78%;
+} 

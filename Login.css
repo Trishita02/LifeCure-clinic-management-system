@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(30, 106, 100);
+}
+#popup{
+    background-color: white;
+    height: 390px;
+    width:500px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 12px;
+    text-align: center;
+}
+#popup img{
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+#popup h2{
+    margin-bottom: 20px;
+    font-size:30px;
+    font-weight: 1000;
+}
+#p1{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight:bolder;
+    font-style: italic;
+    color: rgb(24, 129, 29);
+}
+#p2{
+    margin-top: 35px;
+    height: 23px;
+    font-size: 20px;
+    font-weight:bolder;
+    font-style: italic;
+    color: rgba(197, 214, 12, 0.929);
+}
+#p2 img{
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 6px;
+    width:24px;
+    height:23px;
+}

@@ -1,0 +1,70 @@
+body{
+    background-image: url('appointback.png');
+    background-repeat: no-repeat;
+    background-size:100vw 120vh ;
+}
+#appointment::before{ 
+    opacity:-0.5;
+    z-index: 1;
+} 
+ #appointment{
+    border: 2px solid black;
+    border-radius: 10px ;
+    box-shadow: 0.5vw 1vh 0.5vw 0.5vh rgb(57, 191, 254);
+    height: 510px;
+    width: 400px;
+    margin-left: 12vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#appointment input{
+    padding: 4px;
+}
+#appointment form h2{
+    margin-top: 5vh;
+    margin-bottom:5vh;
+    margin-left: 100px;
+}
+#select1{
+    margin-left: 1.9vw;
+}
+#select2{
+    margin-left: 6vw;
+}
+#field1{
+    margin-left: 5vw;
+}
+#field2{
+    margin-left: 6.2vw;
+}
+#Adate{
+    margin-left: 1.1vw;
+}
+#field3{
+    margin-left: 5.5vw;
+}
+#field4{
+    margin-left: 5.5vw;
+}
+#appointment div{
+    margin-top:5vh ;
+    margin-left: 1.5vw;
+}
+textarea{
+    resize: none;
+}
+#sub{
+    border-radius: 4px;
+    border-color: grey;
+    margin-top: 3.6vh;
+    margin-left: 3vw;
+    padding: 10px;
+    width:10vw;
+} 
+#reset{
+    border-radius: 4px;
+    border-color: grey;
+    margin-left: 10px;
+    padding: 10px;
+    width:5vw;
+} 

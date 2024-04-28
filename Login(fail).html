@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Login</title>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+          <link rel="stylesheet" href="Menu.css">
+          <link rel="stylesheet" href="Register.css">
+          <link rel="icon" href="logo.png">
+      </head>
+      <body>
+          <header>
+              <navbar id="nav">
+                  <div id="logo">
+                      <img src="logo.PNG">
+                  </div>
+                  <div id="name">
+                      LIFEcure Homeopathic 
+                  </div>
+                      <ul>
+                          <li><a href="Home.html">Home</a></li>
+                          <li><a href="UserRegister.html">Login</a></li>
+                          <li><a href="Casestudy.html">Case Studies</a></li>
+                          <li><a href="Contact.html">Contact us</a></li>
+                          <li><a href="About.html">About us</a></li>
+                      </ul> 
+              </navbar>
+          </header>
+          <div id="background" style="margin-top: 0px;">
+              <div id="form">
+                  <h1>LOGIN</h1>
+                  <form action="login.php" method="post">
+                  <input id="select1" type="radio" name="select" value="User" checked="checked"> User
+                  <input id="select2" type="radio" name="select" value="Admin/index.php" onclick="window.open(this.value)"> Admin<br>
+                  <br>
+                  <span style="color:red; margin-left: 11vw;">
+                    Incorrect username or password</span>
+                  <input id="user" type="text" placeholder="ID" name="id" maxlength="12" required style="margin-top: 1vh;"><br>
+                  <input id="password" type="text"required placeholder="Password" maxlength=8 name="passw"><br>
+                  <button id="button" type="submit">Submit</button>
+                  </form>
+                  <p>Haven't Registered yet?? <a href="Registrationform.html">Register now</a></p>
+              </div>
+          </div>
+      </body>
+      </html>

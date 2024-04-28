@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('About.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.foot{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#doctorimg img{
+    width: 320px;
+    height: 250px;
+    position: absolute;
+    left:74%;
+    top:15%;
+    border: 5px solid rgb(69, 61, 61);
+    border-radius: 3px;
+    padding: 2px;
+}
+#history{
+    width: 70%;
+    margin-top: 35px;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 23px;
+}
+#intro{
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 23px;
+}
+#knowledge{
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 23px;
+}
+#goals{
+    width: 98%;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 23px;
+}

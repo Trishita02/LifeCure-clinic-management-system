@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFEcure Clinic</title>
+    <link rel="stylesheet" href="Menu.css">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="icon" href="logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amita:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <navbar id="nav">
+            <div id="logo">
+                <img src="logo.PNG">
+            </div>
+            <div id="name">
+                LIFEcure Homeopathic 
+            </div>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li class="dropdown"><a href="UserRegister.html">Login</a></li>
+                    <li><a href="Casestudy.html">Case Studies</a></li>
+                    <li><a href="Contact.html">Contact us</a></li>
+                    <li><a href="About.html">About us</a></li>
+                </ul> 
+        </navbar>
+    </header>
+    <div class="frame">
+        <div class="images">
+            <div class="container">
+                <img src="Pic-1.jpg">
+            </div>
+            <div class="container">
+                <img src="Pic-3.jpg">
+            </div>
+            <div class="container">
+                <img src="Pic-2.jpg">
+            </div>
+        </div>
+    </div>
+    <div id="description" data-aos="zoom-in">
+        <span>Welcome to Lifecure </span>
+        <h2>What do you know about Homeopathy?</h2>
+        <h3>Let us explore little bit about Homeopathy....</h3>
+        <p>Homeopathic medicines are prepared from tiny amounts of proven healing
+            substances derived mainly from plants,minerals and animals.They are given in very
+            minute doses so that they are non-toxic,and are very safe.Unlike antibiotics and
+            other medicines.Homeopathic medicines will not hamper digestion,lower immune resistance
+            not produce allergic reactions and are safe in long term if taken as directed by a qualified
+            homeopath. 
+        </p>
+        <p>
+            Homeopathy is effective and fast acting restoring optimal health.
+            Homeopathy prescribing is effective in both accute and chronic conditions.
+        </p>
+        <p>
+            Homeopathy is based on nature's principle of cure.Homeopathy has a long standing healing
+            tradition and is now the most popular holistic therapy worldwide.Homeopathic treatments addresses 
+            disease at the root level,hence enhancing resistance to disease.  
+        </p>
+        <p>Homeopathic medicines are safe for everyone because there is no risk of toxicity or
+            side effects.Homeopathy is ideal for all life stages.
+        </p>
+    </div>
+        <div class="query">
+            <form action="Query.php" method="post">
+                <h2>How can we help you?</h2>
+                <textarea placeholder="Write your query here.." name="query" required ></textarea><br>
+                <input type="email" placeholder="Write your e-mail here.." id="input_mail"  name="email" required><br>
+                <button id="submit" class="button" type="submit">Submit</button>
+                <input type="reset" value="Reset" id="reset" class="button">
+            </form>
+        </div>
+        <div id="about">
+            <h1>About Doctor</h1>
+            <div>Dr.Amit Chaurasiya is a homeopathic specialist, a hardcore clinician plus promoter of homeopathy. He has years of experience in this field and well known for providing best treatments to patients.
+                He has qualification of BHMS(Bachelors of homeopathy Medical Science).<br>Over the years, he had conducted many social camps to aware people about homeopathy and its benefits.
+               <br> His goal is to provide best and affordable treatments to everyone.
+            </div>
+            <p>
+                Want to know more? <a href="About.html">Click here</a>
+            </p>
+            <img id="doctorimg" src="Doctor.jpg">
+        </div>
+
+    <footer class="foot">
+        <a href="https://wa.me/919876543210" target="blank">
+            <img src="whatsapp.png" id="wplogo">
+            <p id="wp">+919876543210</p>
+         </a>
+         <a href="mailto:abc@gmail.com" target="blank">
+            <img src="mail.png" id="maillogo">
+            <p id="mail">abc@gmail.com</p>
+         </a>
+         <a href="tel:+911234567890" target="blank">
+            <img src="call_logo.png" id="call-logo">
+            <p id="call">+911234567890</p>
+         </a>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.Case {
+    border: 1px solid black;
+    height:450px ;
+    width: 90%;
+    background-color: rgb(170, 170, 170);
+    border: 2px solid black;
+    margin-top: 18px ;
+    margin-left: 65px;
+}
+#before{
+    font-size: 20px;
+    font-weight: bold ;
+    margin-left: 81%;
+}
+.Case img{
+    height: 300px;
+    width: 300px;
+    margin-top: 20px ;
+    margin-left: 73%;
+    border: 2px solid black;
+    padding: 2px;
+}
+#head{
+    margin-top: -300px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#head1{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#head2{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#descrp{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    width: 68%;
+}
+#points{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    width: 70%;    
+}
