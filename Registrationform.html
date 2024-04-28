@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Yourself</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Menu.css">
+    <link rel="stylesheet" href="Registrationform.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <header>
+        <navbar id="nav">
+            <div id="logo">
+                <img src="logo.PNG">
+            </div>
+            <div id="name">
+                LIFEcure Homeopathic 
+            </div>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="UserRegister.html">Login</a></li>
+                    <li><a href="Casestudy.html">Case Studies</a></li>
+                    <li><a href="Contact.html">Contact us</a></li>
+                    <li><a href="About.html">About us</a></li>
+                </ul> 
+        </navbar>
+    </header>
+    <div id="appointment">
+        <form action="Registration.php" method="post">
+            <h2>Registration Form</h2>
+            <div>
+                First name : <input type="text" id="field1" name="firstname" placeholder="Enter first name" required>
+            </div>
+            <div>
+                Last name : <input type="text" id="field2" name="lastname" placeholder="Enter last name" required>
+            </div>
+            <div>
+                Gender : <input type="radio" id="field3" name="select" value="Male" required> Male
+                <input type="radio" name="select" value="Female"> Female
+                <input type="radio" name="select" value="Others"> Others
+            </div>
+            <div>
+                Date of Birth : <input type="date" id="dob" name="birth" required>
+            </div>
+            <div>
+                Phone no. : <input type="text" maxlength="10" id="field5" name="phone"
+                placeholder="Enter Phone no." required>
+            </div>
+            <div>
+                Email : <input type="email" id="field6" name="email" placeholder="abc@gmail.com" required>
+            </div>
+            <div>
+                Address : <input type="text" id="field7" name="address1" placeholder="House no./Flat no." required><br><br>
+                <input type="text" class="field8" name="address2" placeholder="Area/Locality/Landmark" required><br><br>
+                <input type="text" class="field8" name="address3" placeholder="PIN code"minlength=6 maxlength="6" required><br><br>
+            </div>
+            <div>
+                <input id="sub" type="submit" value="Register">
+                <input type="Reset" id="reset">
+            </div>
+        </form>
+        <script src="Register.js"></script>
+    </div>
+</body>
+</html>

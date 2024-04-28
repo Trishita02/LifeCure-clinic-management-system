@@ -1,0 +1,255 @@
+body{
+    background-color: rgb(135,222,241);
+}
+#top{
+    background-color: white;
+    height: 25vh;
+    width: 95vw;
+    margin-top:1vh;
+    margin-left:2.5vw;
+    margin-bottom: 1vh;
+}
+#bottom{
+    background-color: white;
+    height: 60vh;
+    width: 95vw;
+    margin-left: 2.5vw;
+}
+#bottom p{
+    color: black;
+    margin-left: 0.5vw;
+    font-weight: bold;
+}
+.subhead strong{
+    font-size: 1.5vw;
+    margin-left: 1.5vw;
+    margin-top: 3vh;
+}
+.subhead span{
+    font-size:2.5vh;
+    
+}
+#details{
+    float:right;
+    padding-top: 2vh;
+    height: 100%;
+    width: 82%;;
+}
+.upload{
+    float:left;
+    height: 16vh;
+    width: 7.5vw;
+    margin-left: 1.1vw;
+    margin-top: 1.6vh;
+    position:absolute;
+}
+.upload img{
+    border-radius: 50%;
+    border: 0.2vw solid grey;
+}
+.upload .round{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0.1vw;
+    background: grey;
+    width: 32px;
+    height: 32px;
+    line-height: 33px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 50%;
+}
+.upload .round input[type='file']{
+    position: absolute;
+    transform: scale(2); 
+    opacity: 0;   
+}
+input[type=file]::-webkit-file-upload-button{
+    cursor: pointer;
+}
+#booking{
+    background-image: url("Booking.png");
+    background-size: cover;
+    height: 18vh;
+    width: 13vw;
+    border:0.3vh solid black;
+    position:absolute;
+    border-radius: 2vh;
+    margin-top:5vh;
+    margin-left:11vw ;
+}
+#booking span{
+    visibility: hidden;
+    width: 10vw;
+    position: absolute;
+    z-index: 1;
+    color: black;
+    text-align: center;
+}
+#booking:hover span{
+ visibility:visible ;
+}
+#prescription{
+    background-image: url("prescription.jpeg");
+    background-size: cover;
+    height: 18vh;
+    width: 13vw;
+    border:0.3vh solid black;
+    position:absolute;
+    border-radius: 2vh;
+    margin-top:5vh;
+    margin-left:31vw ;
+}
+#prescription span{
+    visibility: hidden;
+    width: 10vw;
+    position: absolute;
+    z-index: 1;
+    color: black;
+    text-align: center;
+}
+#prescription:hover span{
+ visibility:visible ;
+}
+#consult{
+    background-image: url("consult.jpeg");
+    background-size: contain;
+    background-position: center;
+    height: 18vh;
+    width: 13vw;
+    border:0.3vh solid black;
+    position:absolute;
+    border-radius: 2vh;
+    margin-top:5vh;
+    margin-left:51vw ;
+}
+#consult span{
+    visibility: hidden;
+    width: 10vw;
+    position: absolute;
+    z-index: 1;
+    color: black;
+    text-align: center;
+}
+#consult:hover span{
+ visibility:visible ;
+}
+#edit{
+    background-image: url("edit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 18vh;
+    width: 13vw;
+    border:0.3vh solid black;
+    position:absolute;
+    border-radius: 2vh;
+    margin-top:5vh;
+    margin-left:71vw ;
+}
+#edit span{
+    visibility: hidden;
+    width: 10vw;
+    position: absolute;
+    z-index: 1;
+    color: black;
+    text-align: center;
+}
+#edit:hover span{
+ visibility:visible ;
+}
+#download{
+    background-image: url("appointment\ letter.png");
+    background-position: center;
+    background-size: 52%;
+    background-repeat: no-repeat;
+    height: 18vh;
+    width: 13vw;
+    border:0.3vh solid black;
+    position:absolute;
+    border-radius: 2vh;
+    margin-top:33vh;
+    margin-left:30vw ;
+}
+#download span{
+    visibility: hidden;
+    width: 10vw;
+    position: absolute;
+    z-index: 1;
+    color: black;
+    text-align: center;
+}
+#download:hover span{
+ visibility:visible ;
+}
+#record{
+    background-image: url("appointment\ record.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 18vh;
+    width: 13vw;
+    border:0.3vh solid black;
+    position:absolute;
+    border-radius: 2vh;
+    margin-top:33vh;
+    margin-left:11vw ;
+}
+#record span{
+    visibility: hidden;
+    width: 10vw;
+    position: absolute;
+    z-index: 1;
+    color: black;
+    text-align: center;
+}
+#record:hover span{
+ visibility:visible ;
+}
+#feedback{
+    background-image: url("feedback.png");
+    background-position: center;
+    background-size: cover;
+    height: 18vh;
+    width: 13vw;
+    border:0.3vh solid black;
+    position:absolute;
+    border-radius: 2vh;
+    margin-top:33vh;
+    margin-left:51vw ;
+}
+#feedback span{
+    visibility: hidden;
+    width: 10vw;
+    position: absolute;
+    z-index: 1;
+    color: black;
+    text-align: center;
+}
+#feedback:hover span{
+ visibility:visible ;
+}
+#logout{
+    background-image: url("logout.jpeg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 18vh;
+    width: 13vw;
+    border:0.3vh solid black;
+    position:absolute;
+    border-radius: 2vh;
+    margin-top:33vh;
+    margin-left:71vw ;
+}
+#logout span{
+    visibility: hidden;
+    width: 10vw;
+    position: absolute;
+    z-index: 1;
+    color: black;
+    text-align: center;
+}
+#logout:hover span{
+ visibility:visible ;
+}

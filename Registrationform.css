@@ -1,0 +1,73 @@
+body{ 
+    background-image: url("appointment.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#appointment::before{ 
+    z-index: -1;
+} 
+ #appointment{
+    border: 2px solid black;
+    border-radius: 10px ;
+    height: 83vh;
+    width: 30vw;
+    margin:auto;
+    margin-top: 3vh;
+    margin-bottom: 50px;
+}
+#appointment input{
+    padding: 3px;
+}
+#appointment form h2{
+    margin-top: 5vh;
+    margin-bottom:5vh;
+    margin-left:8.5vw;
+}
+#appointment div{
+    margin-top:24px ;
+    margin-left: 1.5vw;
+}
+textarea{
+    resize: none;
+}
+#field1{
+    margin-left: 2.5vw;
+}
+#field2{
+    margin-left: 2.5vw;
+}
+#field3{
+    margin-left: 4vw;
+}
+#dob{
+    margin-left: 1.5vw;
+}
+#field5{
+    margin-left: 2.8vw;
+}
+#field6{
+    margin-left: 4.5vw;
+}
+#field7{
+    margin-left: 3.5vw;
+    width: 15vw;
+}
+.field8{
+    margin-left: 7.6vw;
+    width: 15vw;
+}
+#sub{
+    border-radius: 4px;
+    border-color: grey;
+    margin-top: 1vh;
+    margin-left: 7vw;
+    padding: 10px;
+    width:6vw;
+} 
+#reset{
+    border-radius: 4px;
+    border-color: grey;
+    margin-left: 10px;
+    padding: 10px;
+    width:6vw;
+} 

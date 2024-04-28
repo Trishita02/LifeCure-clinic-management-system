@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Menu.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <header>
+        <navbar id="nav">
+            <div id="logo">
+                <img src="logo.PNG">
+            </div>
+            <div id="name">
+                LIFEcure Homeopathic 
+        </navbar>
+    </header>
+    <div id="appointment">
+        <form action="update.php" method="post">
+            <h2>Update Profile</h2>
+            <div>
+                First name : <input type="text" id="field1" name="firstname" placeholder="Enter first name">
+            </div>
+            <div>
+                Last name : <input type="text" id="field2" name="lastname" placeholder="Enter last name">
+            </div>
+            <div>
+                Phone no. : <input type="text" maxlength="10" id="field5" name="phone"
+                placeholder="Enter Phone no.">
+            </div>
+            <div>
+                Email : <input type="email" id="field6" name="email" placeholder="abc@gmail.com">
+            </div>
+            <div>
+                Address : <input type="text" id="field7" name="address1" placeholder="House no./Flat no."><br><br>
+                <input type="text" class="field8" name="address2" placeholder="Area/Locality/Landmark"><br><br>
+                <input type="text" class="field8" name="address3" placeholder="PIN code"minlength=6 maxlength="6"><br><br>
+            </div>
+            <div>
+                Password : <input type="text" id="field9" name="Password" placeholder="Update Password" maxlength=8>
+            </div>
+            <div>
+                <input id="sub" type="submit" value="Update">
+                <input type="Reset" id="reset">
+            </div>
+        </form>
+        <script src="Registrationform.js"></script>
+    </div>
+    <style>
+body{ 
+     background-color: rgb(135,222,241);;
+    background-size: cover;
+}
+ #appointment{
+    border: 2px solid black;
+    border-radius: 10px ;
+    height: 83vh;
+    width: 30vw;
+    margin:auto;
+    margin-top: 3vh;
+    margin-bottom: 50px;
+}
+#appointment input{
+    padding: 3px;
+}
+#appointment form h2{
+    margin-top: 3vh;
+    margin-bottom:5vh;
+    margin-left:8.5vw;
+}
+#appointment div{
+    margin-top:24px ;
+    margin-left: 1.5vw;
+}
+#field1{
+    margin-left: 2.5vw;
+}
+#field2{
+    margin-left: 2.5vw;
+}
+#field5{
+    margin-left: 2.8vw;
+}
+#field6{
+    margin-left: 4.5vw;
+}
+#field7{
+    margin-left: 3.5vw;
+    width: 15vw;
+}
+.field8{
+    margin-left: 7.2vw;
+    width: 15vw;
+}
+#field9{
+    margin-left: 3vw;
+    margin-bottom: 5vh;
+}
+#sub{
+    border-radius: 4px;
+    border-color: grey;
+    margin-left: 7vw;
+    padding: 10px;
+    width:6vw;
+} 
+#reset{
+    border-radius: 4px;
+    border-color: grey;
+    margin-left: 10px;
+    padding: 10px;
+    width:6vw;
+} 
+
+    </style>
+</body>
+</html>
